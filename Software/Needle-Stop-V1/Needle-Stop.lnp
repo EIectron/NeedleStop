@@ -1,0 +1,7 @@
+"main.obj",
+"common.obj",
+"delay.obj",
+"sys.obj",
+"STARTUP.obj" 
+TO "Needle-Stop" 
+RAMSIZE(256) 

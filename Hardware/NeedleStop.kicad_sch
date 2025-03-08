@@ -18426,7 +18426,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4efc60a-e3f3-4775-82a0-ef66c4e8b1be")
 		(property "Reference" "U3"
-			(at 218.44 26.67 0)
+			(at 218.44 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18434,7 +18434,7 @@
 			)
 		)
 		(property "Value" "MS51EC0AE"
-			(at 218.44 29.21 0)
+			(at 218.44 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
