@@ -1,26 +1,27 @@
-/*---------------------------------------------------------------------------------------------------------*/
-/*                                                                                                         */
-/* SPDX-License-Identifier: Apache-2.0                                                                     */
-/* Copyright(c) 2020 Nuvoton Technology Corp. All rights reserved.                                         */
-/*                                                                                                         */
-/*---------------------------------------------------------------------------------------------------------*/
+/******************************************************************************
+ * @file     main.c
+ * @brief    The main file for Needle Stop application.
+ * @version  1.0.0
+ * @authors  Alperen KOLAMUC
+ * @date     23 March 2025
+ ******************************************************************************/
 
-
-//***********************************************************************************************************
-//  File Function: MS51 GPIO toggle demo code
-//***********************************************************************************************************
 #include "ms51_32k.h"
 
-// LED1	P1.3
-// LED2 P2.4
-// TOUCH1 P2.5
-// TOUCH2 P1.4
-// RELAY1 P3.3
-// RELAY2 P0.1
-// RELAY3 P0.0
-// RELAY4 P1.0
-// RST-BTN P1.5
+#define true	1
+#define false 0
 
+#define LED1		P13
+#define LED2		P24
+#define TOUCH1	P25
+#define TOUCH2	P14
+#define RELAY1	P33
+#define RELAY2 	P01
+#define RELAY3	P00
+#define RELAY4	P10
+#define RST_BTN	P15
+
+int	lock_state = false;
 
 //----------------------------------------------------------------------------------------------//
 void main (void)
@@ -38,34 +39,39 @@ void main (void)
 	P10_PUSHPULL_MODE;
 	
 	
-	P33 = 0;
-	P01 = 0;
-	P00 = 0;
-	P10 = 0;
+	RELAY1 = 0;
+	RELAY2 = 0;
+	RELAY3 = 0;
+	RELAY4 = 0;
 	
 	Timer0_Delay(16000000,200,100);;
 	
   while(1)
   {
 		
-		P13 = P25;	//LED1 = TOUCH1
-		P24 = P14;	//LED2 = TOUCH2
+		LED1 = TOUCH1;	//LED1 = TOUCH1
+		LED2 = TOUCH2;	//LED2 = TOUCH2
 		
 		
-		if(P25 == 1){
-			P33 = 1;	//RELAY1 on
-			P00 = 1;	//RELAY3 on
+		if((TOUCH1 == 1) && (lock_state == false)){
+			RELAY1 = 1;	//RELAY1 on
+			RELAY2 = 1;	//RELAY2 on
+			RELAY4 = 1;	//RELAY4 on
+			lock_state = true;
 		}
 		
-		if(P14 == 1){
-			P01	= 1;	//RELAY2 on
-			P00 = 1;	//RELAY3 on
+		if((TOUCH2 == 1) && (lock_state == false)){
+			RELAY3 = 1;		//RELAY3 on
+			RELAY4 = 1;		//RELAY4 on
+			lock_state = true;
 		}
 	
 		if(P15 == 0){
-			P33 = 0;	//RELAY1 off
-			P01	= 0;	//RELAY2 off
-			P00 = 0;	//RELAY3 off
+			RELAY1 = 0;	//RELAY1 off
+			RELAY2 = 0;	//RELAY2 off
+			RELAY3 = 0;	//RELAY3 off
+			RELAY4 = 0; //RELAY4 off
+			lock_state = false;
 		}
   }
 }
