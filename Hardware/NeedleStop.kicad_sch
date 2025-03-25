@@ -9681,7 +9681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Resistor_Royalohm.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/587884_199809.pdf"
 			(at 146.05 34.29 0)
 			(effects
 				(font
@@ -9795,7 +9795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Capacitor_Samsung.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/448212_5798276.PDF"
 			(at 92.71 48.26 0)
 			(effects
 				(font
@@ -11222,7 +11222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Datasheets/TR5V-L-S-Z.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/352858_541914.pdf"
 			(at 60.96 147.32 0)
 			(effects
 				(font
@@ -11590,7 +11590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Datasheets/DG350-3_5-03P-12-00AH.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/727483_2058175858..pdf"
 			(at 66.04 194.31 0)
 			(effects
 				(font
@@ -11706,7 +11706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Resistor_Royalohm.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/587884_199809.pdf"
 			(at 127 109.22 0)
 			(effects
 				(font
@@ -12311,7 +12311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Capacitor_Samsung.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/448212_5798276.PDF"
 			(at 82.55 88.9 0)
 			(effects
 				(font
@@ -12789,7 +12789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Datasheets/TR5V-L-S-Z.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/352858_541914.pdf"
 			(at 142.24 147.32 0)
 			(effects
 				(font
@@ -12979,7 +12979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Resistor_Royalohm.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/587884_199809.pdf"
 			(at 77.47 95.25 0)
 			(effects
 				(font
@@ -13567,7 +13567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Datasheets/TR5V-L-S-Z.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/352858_541914.pdf"
 			(at 60.96 209.55 0)
 			(effects
 				(font
@@ -13958,7 +13958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Datasheets/DG350-3_5-03P-12-00AH.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/727483_2058175858..pdf"
 			(at 161.29 195.58 0)
 			(effects
 				(font
@@ -14073,7 +14073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Datasheets/SRI1207.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/495429_2965524.pdf"
 			(at 247.65 217.17 0)
 			(effects
 				(font
@@ -14495,7 +14495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Datasheets/DG350-3_5-03P-12-00AH.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/727483_2058175858..pdf"
 			(at 147.32 132.08 0)
 			(effects
 				(font
@@ -14986,7 +14986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Resistor_Royalohm.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/587884_199809.pdf"
 			(at 146.05 87.63 0)
 			(effects
 				(font
@@ -15212,7 +15212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Capacitor_Samsung.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/448212_5798276.PDF"
 			(at 82.55 35.56 0)
 			(effects
 				(font
@@ -16272,7 +16272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Capacitor_Samsung.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/448212_5798276.PDF"
 			(at 92.71 101.6 0)
 			(effects
 				(font
@@ -16385,7 +16385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Resistor_Royalohm.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/587884_199809.pdf"
 			(at 60.96 86.36 0)
 			(effects
 				(font
@@ -17473,7 +17473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Datasheets/DG350-3_5-03P-12-00AH.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/727483_2058175858..pdf"
 			(at 66.04 132.08 0)
 			(effects
 				(font
@@ -19638,7 +19638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Datasheets/TR5V-L-S-Z.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/352858_541914.pdf"
 			(at 142.24 209.55 0)
 			(effects
 				(font
@@ -20168,7 +20168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Resistor_Royalohm.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/587884_199809.pdf"
 			(at 87.63 95.25 0)
 			(effects
 				(font
@@ -20459,7 +20459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Resistor_Royalohm.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/587884_199809.pdf"
 			(at 127 55.88 0)
 			(effects
 				(font
@@ -20752,7 +20752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Resistor_Royalohm.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/587884_199809.pdf"
 			(at 87.63 41.91 0)
 			(effects
 				(font
@@ -21224,7 +21224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Resistor_Royalohm.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/587884_199809.pdf"
 			(at 60.96 33.02 0)
 			(effects
 				(font
@@ -21457,7 +21457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "./Documents/Resistor_Royalohm.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/587884_199809.pdf"
 			(at 77.47 41.91 0)
 			(effects
 				(font
