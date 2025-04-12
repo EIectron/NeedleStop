@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TR5V-L-S-Z")(type "KiCad")(uri "${KIPRJMOD}/Symbols/TR5V-L-S-Z.kicad_sym")(options "")(descr ""))
+)
